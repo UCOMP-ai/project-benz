@@ -1,0 +1,714 @@
+{
+  "icon": {
+    "size": {
+      "lg": "32px",
+      "md": "24px",
+      "sm": "20px",
+      "xl": "48px",
+      "xs": "16px",
+      "2xl": "64px"
+    },
+    "color": {
+      "muted": "#6D7890",
+      "accent": "#00B388",
+      "default": "#B0B7C8"
+    },
+    "style": "선형(Line) 기반, 정밀하고 날카로운 스트로크",
+    "corner_style": "sharp — 2px 이하 라운드",
+    "stroke_width": {
+      "bold": "2px",
+      "thin": "1px",
+      "default": "1.5px"
+    }
+  },
+  "meta": {
+    "note": "모든 토큰은 CSS Custom Properties 또는 Figma Tokens 형식으로 변환 가능. 다크 모드 전용 시스템으로 라이트 모드 분기 없이 단일 테마 운영.",
+    "brand": "Mercedes-Benz Korea Renewal",
+    "theme": "Dark — Cosmic Eco",
+    "created": "2025",
+    "version": "1.0.0",
+    "design_system": "Deep Space Green UI System"
+  },
+  "color": {
+    "gradient": {
+      "starlight": "radial-gradient(ellipse at 50% 0%, rgba(0,179,136,0.20) 0%, rgba(5,8,16,0) 70%)",
+      "aurora_glow": "linear-gradient(180deg, rgba(0,179,136,0) 0%, rgba(0,179,136,0.15) 50%, rgba(0,179,136,0) 100%)",
+      "card_shimmer": "linear-gradient(105deg, transparent 40%, rgba(200,208,224,0.06) 50%, transparent 60%)",
+      "hero_overlay": "linear-gradient(180deg, rgba(5,8,16,0) 0%, rgba(5,8,16,0.60) 60%, #050810 100%)",
+      "electric_line": "linear-gradient(90deg, rgba(0,179,136,0) 0%, #00B388 50%, rgba(0,179,136,0) 100%)",
+      "nebula_accent": "linear-gradient(135deg, #050810 0%, #0D2040 60%, #002B21 100%)",
+      "cosmic_surface": "linear-gradient(180deg, #111827 0%, #0A0E1A 100%)",
+      "nebula_primary": "linear-gradient(135deg, #050810 0%, #0A1628 50%, #0A2A2A 100%)"
+    },
+    "semantic": {
+      "text": {
+        "accent": "#00B388",
+        "inverse": "#0A0E1A",
+        "on_dark": "#FFFFFF",
+        "primary": "#E8EAF0",
+        "disabled": "#4F5A70",
+        "tertiary": "#6D7890",
+        "secondary": "#B0B7C8"
+      },
+      "accent": {
+        "glow": "rgba(0, 179, 136, 0.25)",
+        "hover": "#00C99A",
+        "active": "#009A74",
+        "subtle": "rgba(0, 179, 136, 0.12)",
+        "default": "#00B388"
+      },
+      "border": {
+        "glow": "rgba(0, 179, 136, 0.60)",
+        "accent": "rgba(0, 179, 136, 0.40)",
+        "strong": "#4A5878",
+        "subtle": "#1C2B3A",
+        "default": "#2A3A4A"
+      },
+      "primary": {
+        "hover": "#111827",
+        "active": "#050810",
+        "default": "#0A0E1A",
+        "disabled": "#2A3A4A"
+      },
+      "feedback": {
+        "info": "#4A9EE0",
+        "error": "#E05252",
+        "info_bg": "rgba(74, 158, 224, 0.10)",
+        "success": "#00B388",
+        "warning": "#F5A623",
+        "error_bg": "rgba(224, 82, 82, 0.10)",
+        "success_bg": "rgba(0, 179, 136, 0.10)",
+        "warning_bg": "rgba(245, 166, 35, 0.10)"
+      },
+      "secondary": {
+        "hover": "#2A3A4A",
+        "active": "#111827",
+        "default": "#1C2B3A",
+        "disabled": "#0F1A28"
+      },
+      "background": {
+        "glass": "rgba(17, 24, 39, 0.60)",
+        "default": "#050810",
+        "overlay": "rgba(5, 8, 16, 0.85)",
+        "surface": "#111827",
+        "elevated": "#1C2B3A",
+        "nebula_gradient": "linear-gradient(135deg, #050810 0%, #0A1628 40%, #0A2A2A 100%)"
+      }
+    },
+    "primitive": {
+      "nebula": {
+        "blue_mid": "#0D2040",
+        "blue_dark": "#0A1628",
+        "teal_deep": "#0A2A2A",
+        "purple_void": "#0F0A1E",
+        "silver_star": "#C8D0E0",
+        "green_aurora": "#00B388"
+      },
+      "aurora_green": {
+        "50": "#E6FBF5",
+        "100": "#B3F2E0",
+        "200": "#80E9CB",
+        "300": "#4DE0B6",
+        "400": "#26D4A2",
+        "500": "#00B388",
+        "600": "#009A74",
+        "700": "#007D5E",
+        "800": "#006049",
+        "900": "#004333",
+        "950": "#002B21"
+      },
+      "cosmic_black": {
+        "50": "#E8EAF0",
+        "100": "#C5CAD6",
+        "200": "#9AA3B5",
+        "300": "#6E7C93",
+        "400": "#4A5878",
+        "500": "#2A3A4A",
+        "600": "#1C2B3A",
+        "700": "#111827",
+        "800": "#0A0E1A",
+        "900": "#050810",
+        "950": "#020408"
+      },
+      "electric_silver": {
+        "50": "#FFFFFF",
+        "100": "#F5F6F8",
+        "200": "#E8EAF0",
+        "300": "#D0D4DF",
+        "400": "#B0B7C8",
+        "500": "#8E97AC",
+        "600": "#6D7890",
+        "700": "#4F5A70",
+        "800": "#333E52",
+        "900": "#1A2233",
+        "950": "#0D111A"
+      }
+    }
+  },
+  "image": {
+    "style": {
+      "vehicle": "어두운 스튜디오 또는 우주/자연 배경, 측면·쿼터뷰 중심",
+      "lifestyle": "절제된 인물 사용, 자연광과 도시 배경의 조화",
+      "background": "딥 스페이스 또는 미니멀 어두운 환경"
+    },
+    "filter": {
+      "hover": "brightness(1.0) contrast(1.08)",
+      "default": "brightness(0.90) contrast(1.05)"
+    },
+    "overlay": {
+      "strong": "rgba(5, 8, 16, 0.65)",
+      "default": "rgba(5, 8, 16, 0.40)",
+      "gradient": "linear-gradient(180deg, rgba(5,8,16,0) 0%, rgba(5,8,16,0.70) 100%)"
+    },
+    "aspect_ratio": {
+      "hero": "21/9",
+      "square": "1/1",
+      "portrait": "3/4",
+      "feature_card": "4/3",
+      "vehicle_card": "16/9"
+    }
+  },
+  "border": {
+    "style": {
+      "solid": "solid",
+      "dashed": "dashed"
+    },
+    "width": {
+      "none": "0px",
+      "thin": "1px",
+      "thick": "2px",
+      "medium": "1.5px",
+      "default": "1px"
+    },
+    "semantic": {
+      "focus": "2px solid #00B388",
+      "accent": "1px solid rgba(0, 179, 136, 0.40)",
+      "strong": "1px solid #4A5878",
+      "subtle": "1px solid #1C2B3A",
+      "default": "1px solid #2A3A4A",
+      "accent_glow": "1px solid rgba(0, 179, 136, 0.70)"
+    }
+  },
+  "effect": {
+    "glow": {
+      "accent_point": {
+        "box_shadow": "0 0 20px rgba(0, 179, 136, 0.4), 0 0 60px rgba(0, 179, 136, 0.15)",
+        "description": "액센트 색상 주변 발광 효과"
+      },
+      "vehicle_silhouette": {
+        "box_shadow": "0 20px 60px rgba(0, 179, 136, 0.20)",
+        "description": "차량 이미지 하단 반사 및 글로우"
+      }
+    },
+    "particle": {
+      "starfield": {
+        "color": [
+          "rgba(200,208,224,0.4)",
+          "rgba(0,179,136,0.3)",
+          "rgba(200,208,224,0.2)"
+        ],
+        "size_range": "1px - 2px",
+        "description": "배경에 미세한 별빛 파티클 — 정적이거나 매우 느리게 유동",
+        "opacity_range": "0.2 - 0.8"
+      },
+      "nebula_dust": {
+        "opacity": "0.06 - 0.12",
+        "description": "성운 먼지 느낌의 배경 그라디언트 블러 레이어"
+      }
+    },
+    "scan_line": {
+      "size": "2px",
+      "opacity": "0.02",
+      "description": "미세한 수평 스캔라인 텍스처 — 테크 감성 부여"
+    },
+    "glass_morphism": {
+      "border": "1px solid rgba(42, 58, 74, 0.50)",
+      "background": "rgba(17, 24, 39, 0.60)",
+      "description": "반투명 유리 패널 — 네비게이션, 오버레이 카드에 사용",
+      "backdrop_filter": "blur(20px) saturate(1.5)"
+    }
+  },
+  "layout": {
+    "grid": {
+      "gutter": {
+        "mobile": "16px",
+        "tablet": "24px",
+        "desktop": "32px"
+      },
+      "margin": {
+        "mobile": "16px",
+        "tablet": "32px",
+        "desktop": "80px"
+      },
+      "columns": {
+        "mobile": 4,
+        "tablet": 8,
+        "desktop": 12
+      }
+    },
+    "z_index": {
+      "base": "0",
+      "below": "-1",
+      "modal": "400",
+      "toast": "500",
+      "raised": "10",
+      "sticky": "200",
+      "overlay": "300",
+      "tooltip": "600",
+      "dropdown": "100"
+    },
+    "container": {
+      "wide": "1600px",
+      "narrow": "800px",
+      "content": "1200px",
+      "max_width": "1440px"
+    },
+    "breakpoint": {
+      "lg": "1024px",
+      "md": "768px",
+      "sm": "640px",
+      "xl": "1280px",
+      "xs": "375px",
+      "2xl": "1440px",
+      "3xl": "1920px"
+    }
+  },
+  "motion": {
+    "easing": {
+      "fluid": "cubic-bezier(0.25, 0.46, 0.45, 0.94)",
+      "cosmic": "cubic-bezier(0.16, 1, 0.3, 1)",
+      "linear": "linear",
+      "spring": "cubic-bezier(0.34, 1.56, 0.64, 1)",
+      "ease_in": "cubic-bezier(0.4, 0, 1, 1)",
+      "ease_out": "cubic-bezier(0, 0, 0.2, 1)",
+      "ease_in_out": "cubic-bezier(0.4, 0, 0.2, 1)"
+    },
+    "duration": {
+      "fast": "100ms",
+      "slow": "350ms",
+      "cosmic": "1200ms",
+      "normal": "200ms",
+      "slower": "500ms",
+      "instant": "50ms",
+      "slowest": "800ms"
+    },
+    "transition": {
+      "color": "color 150ms cubic-bezier(0.4, 0, 0.2, 1), background-color 150ms cubic-bezier(0.4, 0, 0.2, 1)",
+      "shadow": "box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1)",
+      "default": "all 200ms cubic-bezier(0.4, 0, 0.2, 1)",
+      "opacity": "opacity 200ms cubic-bezier(0, 0, 0.2, 1)",
+      "transform": "transform 350ms cubic-bezier(0.16, 1, 0.3, 1)",
+      "fluid_motion": "all 500ms cubic-bezier(0.25, 0.46, 0.45, 0.94)"
+    }
+  },
+  "shadow": {
+    "lg": "0 8px 32px rgba(5, 8, 16, 0.70)",
+    "md": "0 4px 16px rgba(5, 8, 16, 0.60)",
+    "sm": "0 2px 8px rgba(5, 8, 16, 0.50)",
+    "xl": "0 16px 48px rgba(5, 8, 16, 0.80)",
+    "xs": "0 1px 2px rgba(5, 8, 16, 0.40)",
+    "2xl": "0 24px 64px rgba(5, 8, 16, 0.90)",
+    "nav": "0 2px 20px rgba(5, 8, 16, 0.80)",
+    "card": "0 4px 24px rgba(5, 8, 16, 0.60), 0 1px 4px rgba(5, 8, 16, 0.40)",
+    "none": "none",
+    "modal": "0 24px 80px rgba(5, 8, 16, 0.95), 0 0 0 1px rgba(42, 58, 74, 0.60)",
+    "starlight": "0 0 1px rgba(200, 208, 224, 0.60), 0 0 4px rgba(200, 208, 224, 0.20)",
+    "card_hover": "0 8px 40px rgba(5, 8, 16, 0.80), 0 0 20px rgba(0, 179, 136, 0.15)",
+    "inset_subtle": "inset 0 1px 0 rgba(200, 208, 224, 0.05)",
+    "accent_glow_lg": "0 0 48px rgba(0, 179, 136, 0.30)",
+    "accent_glow_md": "0 0 24px rgba(0, 179, 136, 0.35)",
+    "accent_glow_sm": "0 0 12px rgba(0, 179, 136, 0.25)"
+  },
+  "spacing": {
+    "base": "4px",
+    "scale": {
+      "0": "0px",
+      "1": "4px",
+      "2": "8px",
+      "3": "12px",
+      "4": "16px",
+      "5": "20px",
+      "6": "24px",
+      "7": "28px",
+      "8": "32px",
+      "10": "40px",
+      "12": "48px",
+      "14": "56px",
+      "16": "64px",
+      "20": "80px",
+      "24": "96px",
+      "28": "112px",
+      "32": "128px",
+      "36": "144px",
+      "40": "160px",
+      "48": "192px",
+      "56": "224px",
+      "64": "256px"
+    },
+    "semantic": {
+      "layout": {
+        "max_width": "1440px",
+        "narrow_width": "800px",
+        "content_width": "1200px",
+        "page_horizontal": "24px",
+        "page_horizontal_lg": "80px",
+        "page_horizontal_md": "48px"
+      },
+      "section": {
+        "lg": "128px",
+        "md": "96px",
+        "sm": "64px",
+        "xl": "160px",
+        "xs": "48px"
+      },
+      "component": {
+        "lg": "16px",
+        "md": "12px",
+        "sm": "8px",
+        "xl": "24px",
+        "xs": "4px"
+      }
+    }
+  },
+  "component": {
+    "card": {
+      "default": {
+        "hover": {
+          "transform": "translateY(-2px)",
+          "box_shadow": "0 8px 40px rgba(5, 8, 16, 0.80), 0 0 20px rgba(0, 179, 136, 0.12)",
+          "border_color": "rgba(0, 179, 136, 0.35)"
+        },
+        "border": "1px solid #2A3A4A",
+        "padding": "24px",
+        "background": "#111827",
+        "box_shadow": "0 4px 24px rgba(5, 8, 16, 0.60)",
+        "transition": "all 350ms cubic-bezier(0.16, 1, 0.3, 1)",
+        "border_radius": "2px"
+      },
+      "feature": {
+        "border": "1px solid #2A3A4A",
+        "padding": "20px 24px",
+        "background": "#111827",
+        "border_left": "2px solid #00B388",
+        "border_radius": "2px"
+      },
+      "vehicle": {
+        "border": "1px solid #1C2B3A",
+        "overflow": "hidden",
+        "background": "linear-gradient(180deg, #111827 0%, #0A0E1A 100%)",
+        "aspect_ratio": "16/9",
+        "border_radius": "2px"
+      }
+    },
+    "badge": {
+      "new": {
+        "color": "#0A0E1A",
+        "padding": "3px 8px",
+        "font_size": "10px",
+        "background": "#00B388",
+        "font_weight": "600",
+        "border_radius": "2px",
+        "letter_spacing": "0.12em",
+        "text_transform": "uppercase"
+      },
+      "accent": {
+        "color": "#00B388",
+        "border": "1px solid rgba(0, 179, 136, 0.30)",
+        "padding": "4px 10px",
+        "font_size": "11px",
+        "background": "rgba(0, 179, 136, 0.12)",
+        "border_radius": "2px",
+        "letter_spacing": "0.10em",
+        "text_transform": "uppercase"
+      },
+      "default": {
+        "color": "#B0B7C8",
+        "border": "1px solid #2A3A4A",
+        "padding": "4px 10px",
+        "font_size": "11px",
+        "background": "rgba(42, 58, 74, 0.60)",
+        "border_radius": "2px",
+        "letter_spacing": "0.10em",
+        "text_transform": "uppercase"
+      }
+    },
+    "input": {
+      "color": "#E8EAF0",
+      "error": {
+        "box_shadow": "0 0 0 3px rgba(224, 82, 82, 0.10)",
+        "border_color": "#E05252"
+      },
+      "focus": {
+        "box_shadow": "0 0 0 3px rgba(0, 179, 136, 0.15)",
+        "border_color": "#00B388"
+      },
+      "border": "1px solid #2A3A4A",
+      "padding": "12px 16px",
+      "font_size": "15px",
+      "background": "#111827",
+      "border_radius": "2px",
+      "placeholder_color": "#6D7890"
+    },
+    "button": {
+      "ghost": {
+        "color": "#00B388",
+        "hover": {
+          "color": "#00C99A",
+          "text_decoration": "none"
+        },
+        "border": "none",
+        "padding": "14px 24px",
+        "font_size": "14px",
+        "background": "transparent",
+        "font_weight": "500",
+        "letter_spacing": "0.08em",
+        "text_transform": "uppercase"
+      },
+      "primary": {
+        "color": "#0A0E1A",
+        "hover": {
+          "background": "#00C99A",
+          "box_shadow": "0 0 24px rgba(0, 179, 136, 0.40)"
+        },
+        "active": {
+          "background": "#009A74"
+        },
+        "border": "none",
+        "padding": "14px 32px",
+        "font_size": "14px",
+        "background": "#00B388",
+        "transition": "all 250ms cubic-bezier(0.4, 0, 0.2, 1)",
+        "font_weight": "500",
+        "border_radius": "2px",
+        "letter_spacing": "0.08em",
+        "text_transform": "uppercase"
+      },
+      "icon_size": {
+        "lg": "52px",
+        "md": "44px",
+        "sm": "36px"
+      },
+      "secondary": {
+        "color": "#E8EAF0",
+        "hover": {
+          "color": "#00B388",
+          "box_shadow": "0 0 12px rgba(0, 179, 136, 0.15)",
+          "border_color": "rgba(0, 179, 136, 0.60)"
+        },
+        "border": "1px solid #2A3A4A",
+        "padding": "13px 32px",
+        "font_size": "14px",
+        "background": "transparent",
+        "font_weight": "500",
+        "border_radius": "2px",
+        "letter_spacing": "0.08em",
+        "text_transform": "uppercase"
+      }
+    },
+    "divider": {
+      "accent": "1px solid rgba(0, 179, 136, 0.30)",
+      "subtle": "1px solid #1C2B3A",
+      "default": "1px solid #2A3A4A",
+      "electric_line": {
+        "height": "1px",
+        "background": "linear-gradient(90deg, rgba(0,179,136,0) 0%, #00B388 50%, rgba(0,179,136,0) 100%)"
+      }
+    },
+    "tooltip": {
+      "color": "#E8EAF0",
+      "border": "1px solid #2A3A4A",
+      "padding": "8px 12px",
+      "font_size": "13px",
+      "background": "#1C2B3A",
+      "box_shadow": "0 8px 24px rgba(5, 8, 16, 0.80)",
+      "border_radius": "2px"
+    },
+    "navigation": {
+      "link": {
+        "color": "#B0B7C8",
+        "font_size": "13px",
+        "hover_color": "#E8EAF0",
+        "active_color": "#00B388",
+        "letter_spacing": "0.06em",
+        "text_transform": "uppercase"
+      },
+      "height": {
+        "mobile": "60px",
+        "desktop": "72px"
+      },
+      "background": "rgba(5, 8, 16, 0.92)",
+      "border_bottom": "1px solid rgba(42, 58, 74, 0.60)",
+      "backdrop_filter": "blur(20px) saturate(1.5)"
+    }
+  },
+  "typography": {
+    "scale": {
+      "body_lg": {
+        "size": "17px",
+        "usage": "본문 텍스트",
+        "weight": "400",
+        "line_height": "1.65",
+        "letter_spacing": "0em"
+      },
+      "body_md": {
+        "size": "15px",
+        "usage": "일반 설명문",
+        "weight": "400",
+        "line_height": "1.6",
+        "letter_spacing": "0.005em"
+      },
+      "body_sm": {
+        "size": "13px",
+        "usage": "캡션, 부연설명",
+        "weight": "400",
+        "line_height": "1.55",
+        "letter_spacing": "0.01em"
+      },
+      "body_xl": {
+        "size": "20px",
+        "usage": "리드 카피, 인트로 텍스트",
+        "weight": "400",
+        "line_height": "1.6",
+        "letter_spacing": "0em"
+      },
+      "label_lg": {
+        "size": "14px",
+        "usage": "버튼 레이블, 네비게이션",
+        "weight": "500",
+        "line_height": "1.4",
+        "letter_spacing": "0.08em",
+        "text_transform": "uppercase"
+      },
+      "label_md": {
+        "size": "12px",
+        "usage": "태그, 배지, 카테고리",
+        "weight": "600",
+        "line_height": "1.4",
+        "letter_spacing": "0.10em",
+        "text_transform": "uppercase"
+      },
+      "label_sm": {
+        "size": "11px",
+        "usage": "오버라인, 마이크로 레이블",
+        "weight": "600",
+        "line_height": "1.3",
+        "letter_spacing": "0.12em",
+        "text_transform": "uppercase"
+      },
+      "overline": {
+        "size": "11px",
+        "usage": "섹션 오버라인, 카테고리 표시",
+        "weight": "500",
+        "line_height": "1.3",
+        "letter_spacing": "0.15em",
+        "text_transform": "uppercase"
+      },
+      "display_lg": {
+        "size": "60px",
+        "usage": "페이지 타이틀",
+        "weight": "300",
+        "line_height": "1.1",
+        "letter_spacing": "-0.025em"
+      },
+      "display_xl": {
+        "size": "72px",
+        "usage": "섹션 대형 타이틀",
+        "weight": "300",
+        "line_height": "1.05",
+        "letter_spacing": "-0.03em"
+      },
+      "heading_lg": {
+        "size": "36px",
+        "usage": "카드 타이틀, 서브섹션",
+        "weight": "400",
+        "line_height": "1.2",
+        "letter_spacing": "-0.015em"
+      },
+      "heading_md": {
+        "size": "28px",
+        "usage": "모달, 사이드바 타이틀",
+        "weight": "500",
+        "line_height": "1.25",
+        "letter_spacing": "-0.01em"
+      },
+      "heading_sm": {
+        "size": "22px",
+        "usage": "컴포넌트 헤딩",
+        "weight": "500",
+        "line_height": "1.3",
+        "letter_spacing": "-0.005em"
+      },
+      "heading_xl": {
+        "size": "48px",
+        "usage": "주요 섹션 헤딩",
+        "weight": "400",
+        "line_height": "1.15",
+        "letter_spacing": "-0.02em"
+      },
+      "display_2xl": {
+        "size": "96px",
+        "usage": "히어로 영문 헤드라인",
+        "weight": "300",
+        "line_height": "1.0",
+        "letter_spacing": "-0.04em"
+      }
+    },
+    "weight": {
+      "bold": "700",
+      "light": "300",
+      "medium": "500",
+      "regular": "400",
+      "semibold": "600"
+    },
+    "font_family": {
+      "body": {
+        "name": "Mercedes-Benz Text",
+        "usage": "본문, UI 레이블, 설명문",
+        "fallback": "'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif"
+      },
+      "mono": {
+        "name": "'JetBrains Mono'",
+        "usage": "기술 스펙, 수치 데이터",
+        "fallback": "'Fira Code', 'Courier New', monospace"
+      },
+      "korean": {
+        "name": "'Noto Serif KR'",
+        "usage": "한글 서브카피 이중 레이어",
+        "fallback": "'KoPub Batang', '나눔명조', serif"
+      },
+      "heading": {
+        "name": "Mercedes-Benz Head",
+        "usage": "대형 헤드라인, 영문 브랜드 문구",
+        "fallback": "'Cormorant Garamond', 'Playfair Display', Georgia, serif"
+      }
+    }
+  },
+  "accessibility": {
+    "motion": {
+      "reduced_motion": "prefers-reduced-motion: reduce — 모든 애니메이션 duration을 50ms 이하로 축소",
+      "essential_motion_only": true
+    },
+    "focus_style": {
+      "outline": "2px solid #00B388",
+      "border_radius": "2px",
+      "outline_offset": "3px"
+    },
+    "min_contrast_ratio": {
+      "large_text": "3:1",
+      "normal_text": "4.5:1",
+      "ui_component": "3:1"
+    }
+  },
+  "border_radius": {
+    "lg": "2px",
+    "md": "2px",
+    "sm": "2px",
+    "xl": "4px",
+    "xs": "2px",
+    "2xl": "4px",
+    "full": "9999px",
+    "none": "0px",
+    "note": "브랜드 기조에 따라 샤프하고 정밀한 코너를 기본으로 하며, 최대 4px 이내로 제한한다.",
+    "default": "2px"
+  }
+}
